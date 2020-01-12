@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to the C4 Modelling Language"
 date:   2020-01-06 13:28:40 +0100
-categories: jekyll update
+categories: 
 ---
 
 The [C4 model](https://c4model.com/) was created between 2014 and 2017 by [Simon Brown](https://twitter.com/simonbrown). 
