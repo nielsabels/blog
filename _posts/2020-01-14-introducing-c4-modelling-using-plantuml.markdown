@@ -9,13 +9,11 @@ categories:
 
 This post introduces a way to create and maintain software architecture diagrams, based on the C4 Model, using PlantUML. If you are unfamiliar with the C4 modelling language, feel free to check out [my introduction](2020/01/06/an-introduction-to-the-c4-modelling-language.html).
 
-In short, it will turn the contents of the following `.puml` file into the C4 diagram below it.
+In short, you will be able to turn the contents of the following `.puml` file into the C4 diagram below it. It will do this both as a preview as you're writing it, and as a `.png` file on disk after each time you save, using Visual Studio Code.
 
 <script src="https://gist.github.com/nielsabels/4b7dca1c17bdfeb5f10da58e52c67954.js"></script>
 
 ![c4-system-context](/assets/img/2020-01-14/c4-system-context.png)
-
-To enable others to do this, I've created a repository which is meant to be used with Visual Studio Code. Visual Studio Code is used as a source-code editor for the PlantUML markup (`.puml`). VSCode supports previewing diagrams as you are writing them, as well as exporting diagrams upon save.
 
 # How-to guide
 
@@ -61,10 +59,16 @@ Creating network "c4-diagrams-plantuml-starter_default" with the default driver
 Creating c4-diagrams-plantuml-starter_plantuml_1 ... done
 ```
 
-## Everything is ready 
+## Wrapping up
 
-At this stage, everything should be ready to create C4 diagrams using VSCode. Open the `c4-diagrams-plantuml-starter` directory using VSCode.
+At this stage, you should be ready to create C4 diagrams using VSCode. 
 
-Now open the PlantUML file at: `diagrams/C4 System Context - Internet Banking System.puml`.
+- Open the `c4-diagrams-plantuml-starter` directory using VSCode.
+- Navigate to a PlantUML file (e.g. `diagrams/C4 System Context - Internet Banking System.puml`).
+- Continue by pressing `ctrl+p` to open the action panel and enter a `>` character followed by a space character to list the actions.
+- Find the action `PlantUML: Preview Current Diagram` to get a panel next to your source file. 
 
-Continue by pressing `ctrl+p` to open the action panel and enter a `>` character followed by a space character. Now find the action `PlantUML: Preview Current Diagram` to get a panel next to your source file. 
+![vscode_preview](/assets/img/2020-01-14/vscode-preview.gif)
+
+# Credits
+
